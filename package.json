@@ -1,0 +1,43 @@
+{
+  "name": "alloy-underscore",
+  "version": "0.0.2-beta.1",
+  "description": "Alloy+ plugin for fixing underscore.js usage issues in Alloy",
+  "keywords": [
+    "mobilehero",
+    "appcelerator",
+    "alloy",
+    "alloy-plus",
+    "titanium",
+    "plugin"
+  ],
+  "homepage": "git://github.com/mobilehero/alloy-underscore",
+  "bugs": {
+    "url": "https://github.com/mobilehero/alloy-underscore/issues",
+    "email": "info@mobilehero.me"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Brenton House",
+    "email": "brenton.house@gmail.com",
+    "url": "https://github.com/brentonhouse"
+  },
+  "main": "./alloy-underscore.js",
+  "scripts": {
+    "add": "git add -A",
+    "add-version": "npm run add && node scripts/version",
+    "push": "npm run add-version --",
+    "postpush": "git push",
+    "autopull": "node scripts/autopull"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mobilehero/alloy-underscore.git"
+  },
+  "devDependencies": {
+    "lodash": "^4.13.1",
+    "semver": "^5.1.0"
+  },
+  "engines": {
+    "node": ">=0.10"
+  }
+}
