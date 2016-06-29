@@ -54,10 +54,9 @@ function replace_content(fullpath) {
  */
 function alloy_underscore(params) {
 
+	
 	logger = params.logger;
-	params.dirname = params.dirname || params.event.dir.lib;
-	params.dirname = params.dirname ? _.template(params.dirname)(params) : params.event.dir.lib;
-
+	params.dirname = params.dirname ? _.template(params.dirname)(params) : params.event.dir.resourcesPlatform;
 	logger.trace("fixing underscore in directory: " + params.dirname);
 
 	replace_content(path.join(params.dirname, "alloy.js"))
