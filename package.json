@@ -1,6 +1,6 @@
 {
   "name": "alloy-underscore",
-  "version": "0.0.3-beta.1",
+  "version": "0.0.3-beta.2",
   "description": "Alloy+ plugin for fixing underscore.js usage issues in Alloy",
   "keywords": [
     "mobilehero",
