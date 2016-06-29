@@ -40,7 +40,7 @@ function replace_content(fullpath) {
 	var source = fs.readFileSync(fullpath, 'utf8');
 	var regex = /(require\s*\(\s*['"]alloy\/underscore['"]\s*\))._/g
 	var test = regex.test(source);
-	if (test) {
+	if(test) {
 		logger.trace("Fixing file: " + fullpath);
 		source = source.replace(regex, "$1");
 		fs.writeFileSync(fullpath, source);
@@ -52,17 +52,17 @@ function replace_content(fullpath) {
  * 
  * @param {object} params
  */
-function alloy_underscore(params, directory) {
+function alloy_underscore(params) {
+
 	logger = params.logger;
-	var args = Array.prototype.slice.call(arguments);
-	logger.trace("args: " + JSON.stringify(args));
+	params.dirname = params.dirname || params.event.dir.lib;
+	params.dirname = params.dirname ? _.template(params.dirname)(params) : params.event.dir.lib;
 
-	directory = directory || params.event.dir.resourcesPlatform;
-	logger.trace("fixing underscore in directory: " + directory);
+	logger.trace("fixing underscore in directory: " + params.dirname);
 
-	replace_content(path.join(directory, "alloy.js"))
-	replace_content(path.join(directory, "alloy", "sync", "properties.js"))
-	replace_content(path.join(directory, "alloy", "sync", "sql.js"))
+	replace_content(path.join(params.dirname, "alloy.js"))
+	replace_content(path.join(params.dirname, "alloy", "sync", "properties.js"))
+	replace_content(path.join(params.dirname, "alloy", "sync", "sql.js"))
 }
 
 module.exports = alloy_underscore;
