@@ -12,7 +12,7 @@
  * Alloy+ plugin for fixing underscore.js usage issues in Alloy
  * 
  * @module 
- * alloy-underscore 
+ * @aplus/underscore 
  * 
  * @author 
  * Brenton House <brenton.house@gmail.com>
@@ -52,9 +52,7 @@ function replace_content(fullpath) {
  * 
  * @param {object} params
  */
-function alloy_underscore(params) {
-
-	
+function plugin(params) {
 	logger = params.logger;
 	params.dirname = params.dirname ? _.template(params.dirname)(params) : params.event.dir.resourcesPlatform;
 	logger.trace("fixing underscore in directory: " + params.dirname);
@@ -64,4 +62,4 @@ function alloy_underscore(params) {
 	replace_content(path.join(params.dirname, "alloy", "sync", "sql.js"))
 }
 
-module.exports = alloy_underscore;
+module.exports = plugin;

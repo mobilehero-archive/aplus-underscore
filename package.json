@@ -1,6 +1,6 @@
 {
-  "name": "alloy-underscore",
-  "version": "0.0.3-beta.3",
+  "name": "@aplus/underscore",
+  "version": "0.0.5-beta.1",
   "description": "Alloy+ plugin for fixing underscore.js usage issues in Alloy",
   "keywords": [
     "mobilehero",
@@ -10,9 +10,9 @@
     "titanium",
     "plugin"
   ],
-  "homepage": "git://github.com/mobilehero/alloy-underscore",
+  "homepage": "git://github.com/mobilehero/aplus-underscore",
   "bugs": {
-    "url": "https://github.com/mobilehero/alloy-underscore/issues",
+    "url": "https://github.com/mobilehero/aplus-underscore/issues",
     "email": "info@mobilehero.me"
   },
   "license": "MIT",
@@ -21,7 +21,7 @@
     "email": "brenton.house@gmail.com",
     "url": "https://github.com/brentonhouse"
   },
-  "main": "./alloy-underscore.js",
+  "main": "./aplus-underscore.js",
   "scripts": {
     "add": "git add -A",
     "add-version": "npm run add && node scripts/version",
@@ -31,7 +31,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/mobilehero/alloy-underscore.git"
+    "url": "git://github.com/mobilehero/aplus-underscore.git"
   },
   "devDependencies": {
     "lodash": "^4.13.1",
