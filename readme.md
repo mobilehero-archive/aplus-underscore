@@ -97,7 +97,7 @@ any changes done by this plugin can get picked up before copying files over to t
 
 ## Other Alloy+ Plugins 
 
-> ** Coming Soon! :mega: **
+> **Coming Soon! :mega:**
 
 - [`npm`][]: Execute npm during the Alloy build process
 - [`babel`][]: Run babel transformations on your code during the build process
