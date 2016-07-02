@@ -67,12 +67,12 @@ npm install --save @aplus/bundle
 
 
 ## Installing this plugin
-[![NPM version](https://badge.fury.io/js/%40mobile%2Faplus-underscore.svg)](https://www.npmjs.com/package/@mobile/aplus-underscore)
+[![NPM version](https://badge.fury.io/js/%40aplus%2Funderscore.svg)](https://www.npmjs.com/package/@aplus/underscore)
 
 > _Install in the root directory of your Appcelerator mobile project (the directory containing `tiapp.xml`)._
 
 ```bash
-npm install --save @mobile/aplus-underscore
+npm install --save @aplus/underscore
 ```
 
 ## Usage
