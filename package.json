@@ -1,6 +1,6 @@
 {
   "name": "@aplus/underscore",
-  "version": "0.0.5-beta.4",
+  "version": "0.0.5-beta.5",
   "description": "Alloy+ plugin for fixing underscore.js usage issues in Alloy",
   "keywords": [
     "mobilehero",
@@ -28,7 +28,7 @@
     "add-version": "node scripts/version",
     "push": "npm run commit --",
     "commit": "npm run add-version --",
-    "postpush": "git push",
+    "postpush": "git push && git push --tags",
     "autopull": "node scripts/autopull"
   },
   "repository": {
