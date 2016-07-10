@@ -62,4 +62,10 @@ function plugin(params) {
 	replace_content(path.join(params.dirname, "alloy", "sync", "sql.js"))
 }
 
-module.exports = plugin;
+module.exports.execute = plugin;
+module.exports.tasks = [
+	{
+		"module": module.id,
+		"events": "precompile"
+	}
+]

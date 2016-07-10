@@ -80,13 +80,13 @@ npm install --save @aplus/underscore
 To use this installed plugin in your app, merge the following to your app's `config.json` file:
 
 ```json
-	"tasks": {
-		"precompile": [ "@aplus/underscore" ]
+	{
+		"tasks": [ "@aplus/underscore" ]
 	}
 ```
 
 
->_Most often, you will probably want to run these in the `precompile` stage of the Alloy build process so that 
+>_In default mode, the task will run in the `precompile` stage of the Alloy build process so that 
 any changes done by this plugin can get picked up before copying files over to the build folder._
 
 ### Examples
