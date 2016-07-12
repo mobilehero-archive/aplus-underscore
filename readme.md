@@ -99,10 +99,13 @@ any changes done by this plugin can get picked up before copying files over to t
 
 > **Coming Soon! :mega:**
 
+
 - [`npm`][]: Execute npm during the Alloy build process
 - [`babel`][]: Run babel transformations on your code during the build process
 - [`es6`][]: Use ES6/ES2015 code in your apps via babel transformations!
 - [`node`][]: Make `require` statements in your app support nodejs packages installed via npm
+- [`underscore`][]: Fix some issues with the usage of underscore in Alloy and allow upgrading to lodash
+
 
 _You can also search for more plugins developed by the community._
 
@@ -121,10 +124,10 @@ See the [license.md](https://github.com/mobilehero/aplus-core/blob/master/licens
 
 Superhero Studios Incorporated and this project are in no way affiliated with any of the following companies:
 
-* _Appcelerator, Inc_
-* _Axway Inc_
-* _Apple Inc_
-* _Google Inc_
+- _Appcelerator, Inc_
+- _Axway Inc_
+- _Apple Inc_
+- _Google Inc_
 
 _Alloy is developed by Appcelerator and the community and is Copyright (c) 2012 by Appcelerator, Inc. All Rights Reserved. 
 Alloy is made available under the Apache Public License, version 2. See their [LICENSE](https://github.com/appcelerator/alloy/blob/master/LICENSE) file for more information._
