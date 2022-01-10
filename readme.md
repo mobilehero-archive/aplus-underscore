@@ -1,3 +1,51 @@
+//]: # (header-start)
+
+<a href="https://brenton.house/saying-goodbye-to-axway-amplify-titanium-31a44f3671de">
+<h1 align="center">
+	Axway Amplify End-of-Life Announcement
+</h1>
+<h2 align="center">
+	👇 &nbsp; See notes below  &nbsp; 👇
+</h2>	
+</a>
+
+<a href="https://brenton.house/saying-goodbye-to-axway-amplify-titanium-31a44f3671de">
+	<p align="center">
+		<img src="https://cdn.secure-api.org/images/RIP-Axway-Amplify-Titanium.png" alt="RIP Axway Amplify Titanium (2010 - 2022)" width="80%" />
+	</p>
+</a>
+<a href="https://brenton.house/saying-goodbye-to-axway-amplify-titanium-31a44f3671de">
+	<p align="center">
+		🪦 &nbsp; RIP Axway Amplify Titanium (2010 - 2022)
+	</p>
+</a>
+<a href="https://brenton.house/saying-goodbye-to-axway-amplify-titanium-31a44f3671de">
+	<p align="center">
+		🪦 &nbsp; RIP Axway Amplify Cloud Services (2012 - 2022)
+	</p>
+</a>
+<hr>
+<a href="https://brenton.house/saying-goodbye-to-axway-amplify-titanium-31a44f3671de">
+	<h4 align="center">
+🛑 &nbsp;&nbsp; All products affected by the announcements will not be supported by Axway effective their EOL dates in 2022.
+</h4>
+
+<h4 align="center">
+Some Open-Source versions of Axway products will live on after End-of-Life (EOL) Axway Amplify product announcements.  However, some products are closed-source and will NOT continue after the shut down in 2022.  
+	</h4>
+</a>
+<p>&nbsp;</p>
+
+> 👉 &nbsp;&nbsp; Stay tuned for more info as plans are being made to save the Titanium project and move it under the control of a independent group of developers.
+
+<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+[//]: # (header-end)
+
+
 <h3 align="center">
 	<img src="https://cdn.secure-api.org/images/aplus-underscore.svg" alt="alloy+ underscore logo" />
 </h3>
@@ -9,23 +57,26 @@
 
 # alloy+ plugin: `underscore`
 
+[![@aplus/underscore version](https://img.shields.io/npm/v/@aplus/underscore.png)](https://www.npmjs.com/package/@aplus/underscore)
+[![@aplus/underscore downloads](https://img.shields.io/npm/dm/@aplus/underscore.svg)](https://www.npmjs.com/package/@aplus/underscore)
+[![@aplus/underscore dependencies](https://img.shields.io/librariesio/release/npm/@aplus/underscore.svg)](https://www.npmjs.com/package/@aplus/underscore)
 [![](http://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)]()
 
 <!-- TOC depthFrom:2 depthTo:6 insertAnchor:false orderedList:false updateOnSave:true withLinks:true -->
 
-- [Overview](#overview)
-	- [Why should I use this plugin?](#why-should-i-use-this-plugin)
-	- [What is Alloy+?](#what-is-alloy)
-- [Dependencies](#dependencies)
-	- [Install Alloy+ Core only](#install-alloy-core-only)
-	- [Install Alloy+ Bundle 📦](#install-alloy-bundle-)
-- [Installing this plugin](#installing-this-plugin)
-- [Usage](#usage)
-	- [Examples](#examples)
-- [Other Alloy+ Plugins](#other-alloy-plugins)
-- [Need Help?](#need-help)
-- [License](#license)
-- [Legal](#legal)
+* [Overview](#overview)
+	* [Why should I use this plugin?](#why-should-i-use-this-plugin)
+	* [What is Alloy+?](#what-is-alloy)
+* [Dependencies](#dependencies)
+	* [Install Alloy+ Core only](#install-alloy-core-only)
+	* [Install Alloy+ Bundle 📦](#install-alloy-bundle-)
+* [Installing this plugin](#installing-this-plugin)
+* [Usage](#usage)
+	* [Examples](#examples)
+* [Other Alloy+ Plugins](#other-alloy-plugins)
+* [Need Help?](#need-help)
+* [License](#license)
+* [Legal](#legal)
 
 <!-- /TOC -->
 

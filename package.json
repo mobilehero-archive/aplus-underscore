@@ -1,45 +1,54 @@
 {
   "name": "@aplus/underscore",
-  "version": "0.0.5-beta.7",
-  "description": "Alloy+ plugin for fixing underscore.js usage issues in Alloy",
+  "version": "1.0.1",
+  "description": "⭐  Axway Amplify module for using underscore with Appcelerator Titanium SDK",
   "keywords": [
     "mobilehero",
     "appcelerator",
     "alloy",
     "alloy-plus",
     "titanium",
-    "plugin"
+    "npm",
+    "aplus",
+    "sdk",
+    "plugin",
+    "amplify",
+    "api-builder",
+    "appcelerator-titanium",
+    "titanium-sdk",
+    "titanium-mobile",
+    "titanium-module",
+    "axway-sdk",
+    "axway-amplify",
+    "brenton-house"
   ],
-  "homepage": "git://github.com/mobilehero/aplus-underscore",
+  "homepage": "https://brenton.house/saying-goodbye-to-axway-amplify-titanium-31a44f3671de",
   "bugs": {
-    "url": "https://github.com/mobilehero/aplus-underscore/issues",
-    "email": "info@mobilehero.me"
+    "url": "https://github.com/mobilehero-archive/aplus-underscore/issues"
   },
   "license": "MIT",
   "author": {
     "name": "Brenton House",
-    "email": "brenton.house@gmail.com",
     "url": "https://github.com/brentonhouse"
   },
   "main": "./aplus-underscore.js",
   "scripts": {
-    "add": "git add -A",
-    "preadd-version": "npm run add",
-    "add-version": "node scripts/version",
-    "push": "npm run commit --",
-    "commit": "npm run add-version --",
-    "postpush": "git push && git push --tags",
-    "autopull": "node scripts/autopull"
+    "lint": "eslint . --fix",
+    "list": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
+    "prep": "npm install --ignore-scripts",
+    "test": "npm run prep",
+    "prepublishOnly": "git pull && npm test && bump insane",
+    "prepublishOnly2": "git pull && npm test && npm audit fix && bump insane"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/mobilehero/aplus-underscore.git"
+    "url": "git://github.com/mobilehero-archive/aplus-underscore.git"
   },
   "devDependencies": {
-    "lodash": "^4.13.1",
-    "semver": "^5.1.0"
+    "lodash": "^4.17.21",
+    "semver": "^7.3.5"
   },
   "engines": {
-    "node": ">=0.10"
+    "node": ">=12"
   }
 }
